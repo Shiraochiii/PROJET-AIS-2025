@@ -12,11 +12,16 @@ Séquence 3/4 : créer les comptes et groupes d’administration, importer les f
 Séquence 4/4 : (optionnel) vider les groupes d’administration, importer les dernières tâches, déployer les GPO.
 Autres fichiers
 
-Modules (dans le dossier “Modules”) : contiennent les fonctions PowerShell nécessaires (gestion des OUs, délégation de droits, import GPO, etc.).
+Modules (dans le dossier “Modules”) : contiennent les fonctions PowerShell nécessaires 
+(gestion des OUs, délégation de droits, import GPO, etc.).
+
 Inputs : contient les GPOs à déployer, la config LAPS, les tâches planifiées…
+
 Script principal (ex. HardenAD.ps1) : orchestre le déploiement, en s’appuyant sur le fichier XML et les modules.
 Conclusion :
 
 Le modèle HardenAD est hautement personnalisable.
-On peut commenter/activer/désactiver chaque séquence et chaque bloc (par exemple déployer seulement certaines GPOs, ajouter un compte, etc.).
-Il est fortement conseillé de tester le déploiement en environnement de préproduction ou en lab avant de l’exécuter en production.
+On peut commenter/activer/désactiver chaque séquence et chaque bloc 
+(par exemple déployer seulement certaines GPOs, ajouter un compte, etc.).
+Il est fortement conseillé de tester le déploiement en environnement 
+de préproduction ou en lab avant de l’exécuter en production.

@@ -251,13 +251,13 @@
 		<wellKnownID objectClass="text" translateFrom="%DomainUsers%" translateTo="Domain Users" />
 		<wellKnownID objectClass="text" translateFrom="%AuthenticatedUsers%" translateTo="Authenticated Users" />
 		<wellKnownID objectClass="text" translateFrom="%RemoteDesktopUsers%" translateTo="Remote Desktop Users" />
-		<wellKnownID objectClass="text" translateFrom="%NetBios%" translateTo="HARDEN" />
-		<wellKnownID objectClass="text" translateFrom="%Domain%" translateTo="HARDEN" />
-		<wellKnownID objectClass="text" translateFrom="%domaindns%" translateTo="HARDEN.AD" />
-		<wellKnownID objectClass="text" translateFrom="%DN%" translateTo="DC=HARDEN,DC=AD" />
-		<wellKnownID objectClass="text" translateFrom="%RootNetBios%" translateTo="HARDEN" />
-		<wellKnownID objectClass="text" translateFrom="%Rootdomaindns%" translateTo="HARDEN.AD" />
-		<wellKnownID objectClass="text" translateFrom="%RootDN%" translateTo="DC=HARDEN,DC=AD" />
+		<wellKnownID objectClass="text" translateFrom="%NetBios%" translateTo="AIS" />
+		<wellKnownID objectClass="text" translateFrom="%Domain%" translateTo="AIS" />
+		<wellKnownID objectClass="text" translateFrom="%domaindns%" translateTo="AIS.LOCAL" />
+		<wellKnownID objectClass="text" translateFrom="%DN%" translateTo="DC=AIS,DC=LOCAL" />
+		<wellKnownID objectClass="text" translateFrom="%RootNetBios%" translateTo="AIS" />
+		<wellKnownID objectClass="text" translateFrom="%Rootdomaindns%" translateTo="AIS.LOCAL" />
+		<wellKnownID objectClass="text" translateFrom="%RootDN%" translateTo="DC=AIS,DC=LOCAL" />
 		<wellKnownID objectClass="text" translateFrom="%DnsAdmins%" translateTo="DnsAdmins" />
 		<wellKnownID objectClass="group" translateFrom="%isT0%" translateTo="T0" />
 		<wellKnownID objectClass="group" translateFrom="%isT1%" translateTo="T1" />

@@ -22,5 +22,3 @@ Décrire ici le déploiement et la mise en place :
 ## Configuration
 
 Décrire ici la configuration du module :
-
-Test malo 

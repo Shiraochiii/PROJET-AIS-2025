@@ -1,8 +1,14 @@
-Fichier XML
 
 Il contient deux grands blocs :
-Bloc Paramètres : configure la création des OUs, GPOs, délégations, comptes, groupes, etc.
-Bloc Séquences : liste et ordonne les différentes tâches de déploiement (promouvoir la forêt, créer les OU, etc.).
+
+Bloc Paramètres :
+
+Configure la création des OUs, GPOs, délégations, comptes, groupes, etc.
+
+
+
+Bloc Séquences : 
+Liste et ordonne les différentes tâches de déploiement (promouvoir la forêt, créer les OU, etc.).
 Chaque bloc s’appuie sur des “modules” PowerShell qui gèrent les actions (création d’objets AD, import de GPO…).
 Séquences de déploiement
 
@@ -10,7 +16,12 @@ Séquence 1/4 : monter la version fonctionnelle du domaine et de la forêt, acti
 Séquence 2/4 : créer les OU principales (Administration, Tier 0, Tier 1, Tier 2, etc.).
 Séquence 3/4 : créer les comptes et groupes d’administration, importer les filtres WMI, déployer certaines tâches planifiées…
 Séquence 4/4 : (optionnel) vider les groupes d’administration, importer les dernières tâches, déployer les GPO.
+
+
+
 Autres fichiers
+
+
 
 Modules (dans le dossier “Modules”) : contiennent les fonctions PowerShell nécessaires 
 (gestion des OUs, délégation de droits, import GPO, etc.).

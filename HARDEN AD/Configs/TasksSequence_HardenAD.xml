@@ -1416,7 +1416,7 @@
 			<CallingFunction>Set-ADFunctionalLevel</CallingFunction>
 			<UseParameters>Domain</UseParameters>
 			<UseParameters>Last</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Upgrade `(DomainFunctionalLevel` </TaskDescription>
 		</Id>
 		<!-- 
@@ -1426,7 +1426,7 @@
 			<CallingFunction>Set-ADFunctionalLevel</CallingFunction>
 			<UseParameters>Forest</UseParameters>
 			<UseParameters>Last</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Upgrade `(ForestFunctionalLevel` </TaskDescription>
 		</Id>
 		<!-- 
@@ -1435,7 +1435,7 @@
 		<Id Number="010" Name="Restrict computer junction to the domain">
 			<CallingFunction>Set-msDSMachineAccountQuota</CallingFunction>
 			<UseParameters>0</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>set `(msDSMachineAccountQuota` to `(0` to restrict domain junction</TaskDescription>
 		</Id>
 		<!-- 
@@ -1445,7 +1445,7 @@
 			<CallingFunction>Set-ADRecycleBin</CallingFunction>
 			<UseParameters>
 			</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>activate the `(AD Recycle Bin` optional feature</TaskDescription>
 		</Id>
 		<!-- 
@@ -1455,7 +1455,7 @@
 			<CallingFunction>Set-SiteLinkNotify</CallingFunction>
 			<UseParameters>
 			</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>set `(notify` on every `(Site Links</TaskDescription>
 		</Id>
 		<!-- 
@@ -1465,7 +1465,7 @@
 			<CallingFunction>Set-GpoCentralStore</CallingFunction>
 			<UseParameters>
 			</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>set `(GPO Central Store` and `(update adm and admx` files</TaskDescription>
 		</Id>
 		<!-- 
@@ -1474,7 +1474,7 @@
 		<Id Number="050" Name="Set Administration Organizational Unit">
 			<CallingFunction>Set-TreeOU</CallingFunction>
 			<UseParameters>HardenAD_ADMIN</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>set `(Administration` organizational unit</TaskDescription>
 		</Id>
 		<!-- 
@@ -1483,7 +1483,7 @@
 		<Id Number="051" Name="Set Tier 0 Organizational Unit">
 			<CallingFunction>Set-TreeOU</CallingFunction>
 			<UseParameters>HardenAD_PROD-T0</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>set `(Tier 0` organizational unit</TaskDescription>
 		</Id>
 		<!-- 
@@ -1492,7 +1492,7 @@
 		<Id Number="052" Name="Set Tier 1 and Tier 2 Organizational Unit">
 			<CallingFunction>Set-TreeOU</CallingFunction>
 			<UseParameters>HardenAD_PROD-T1and2</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>set `(Tier 1 and Tier 2 combo` organizational unit</TaskDescription>
 		</Id>
 		<!-- 
@@ -1501,7 +1501,7 @@
 		<Id Number="053" Name="Set Legacy Organizational Unit">
 			<CallingFunction>Set-TreeOU</CallingFunction>
 			<UseParameters>HardenAD_PROD-LEGACY</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>set `(Tier Legacy` organizational unit</TaskDescription>
 		</Id>
 		<!-- 
@@ -1510,7 +1510,7 @@
 		<Id Number="060" Name="Set Provisioning Organizational Unit">
 			<CallingFunction>Set-TreeOU</CallingFunction>
 			<UseParameters>PROVISIONNING-EN</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>set `(Provisioning` organizational unit</TaskDescription>
 		</Id>
 		<!-- 
@@ -1520,7 +1520,7 @@
 			<CallingFunction>Set-DefaultObjectLocation</CallingFunction>
 			<UseParameters>User</UseParameters>
 			<UseParameters>OU=users,OU=provisioning,RootDN</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>set `(user objects` default location</TaskDescription>
 		</Id>
 		<!-- 
@@ -1530,7 +1530,7 @@
 			<CallingFunction>Set-DefaultObjectLocation</CallingFunction>
 			<UseParameters>Computer</UseParameters>
 			<UseParameters>OU=computers,OU=provisioning,RootDN</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>set `(computer objects` default location</TaskDescription>
 		</Id>
 		<!-- 
@@ -1539,7 +1539,7 @@
 		<Id Number="080" Name="Create administration accounts">
 			<CallingFunction>New-AdministrationAccounts</CallingFunction>
 			<UseParameters>H4rd3n@D!!</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>create `(administration accounts` used by the tier model</TaskDescription>
 		</Id>
 		<!-- 
@@ -1549,7 +1549,7 @@
 			<CallingFunction>New-AdministrationGroups</CallingFunction>
 			<UseParameters>
 			</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>create `(administration groups` used by the tier model</TaskDescription>
 		</Id>
 		<!-- 
@@ -1559,7 +1559,7 @@
 			<CallingFunction>Push-DelegationModel</CallingFunction>
 			<UseParameters>
 			</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Enforce `(Delegation ACEs` used by the tier model</TaskDescription>
 		</Id>
 		<!--
@@ -1568,13 +1568,13 @@
 		<Id Number="100" Name="Prepare GPO files before GPO import: Local Admins">
 			<CallingFunction>Set-TSLocalAdminGroups</CallingFunction>
 			<UseParameters>{60C4FFE1-F082-49EE-9AF2-F7ABA228D05F}</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Prepare `(Configuration.xml` before the GPO importation of '`(HAD-TS-Local-admins-groups`'</TaskDescription>
 		</Id>
 		<Id Number="101" Name="Prepare GPO files before GPO import: Allow Computer ReUse">
 			<CallingFunction>Set-GptTmplSID</CallingFunction>
 			<UseParameters>{3B6DC475-6822-49C1-B47A-4199DF4FE1E6}</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Prepare `(GptTmpl.inf` before the GPO importation of '`(HAD-DC-Allow-Computer-Account-ReUse`'</TaskDescription>
 		</Id>
 		<!-- 
@@ -1584,7 +1584,7 @@
 			<CallingFunction>Import-WmiFilters</CallingFunction>
 			<UseParameters>
 			</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Import `(WMI filter` to the domain</TaskDescription>
 		</Id>
 		<!-- 
@@ -1594,7 +1594,7 @@
 			<CallingFunction>New-GpoObject</CallingFunction>
 			<UseParameters>
 			</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Import or update `(group policy objects` to the domain and link them</TaskDescription>
 		</Id>
 		<!-- 
@@ -1604,7 +1604,7 @@
 		<Id Number="134" Name="Update Ad schema for LAPS and deploy PShell tools">
 			<CallingFunction>Install-Laps</CallingFunction>
 			<UseParameters>ForceDcIsSchemaOwner</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Update `(AD Schema` for `[LAPS` and add `(PShell add-on`</TaskDescription>
 		</Id>
 		<!-- 
@@ -1613,7 +1613,7 @@
 		<Id Number="135" Name="Setup LAPS permissions over the domain">
 			<CallingFunction>Set-LapsPermissions</CallingFunction>
 			<UseParameters>CUSTOM</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Set-up `(LAPS` permissions on the target domain</TaskDescription>
 		</Id>
 		<!-- 
@@ -1622,7 +1622,7 @@
 		<Id Number="136" Name="Update LAPS deployment scripts">
 			<CallingFunction>Set-LapsScripts</CallingFunction>
 			<UseParameters>NETLOGON\LAPS</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Update `(LAPS Scripts` to match with the domain name</TaskDescription>
 		</Id>
 		<!-- 
@@ -1632,7 +1632,7 @@
 			<CallingFunction>Reset-GroupMembership</CallingFunction>
 			<UseParameters>
 			</UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Update `(groups's membeberships` to match the `[trusted list`</TaskDescription>
 		</Id>
 		<!-- 
@@ -1642,7 +1642,7 @@
 		<Id Number="160" Name="Cross integration of Admin groups">
 			<CallingFunction>Add-GroupsOverDomain</CallingFunction>
 			<UseParameters></UseParameters>
-			<TaskEnabled>No</TaskEnabled>
+			<TaskEnabled>Yes</TaskEnabled>
 			<TaskDescription>Cross integration of `(administration groups` used by the tier model</TaskDescription>
 		</Id>
 		-->

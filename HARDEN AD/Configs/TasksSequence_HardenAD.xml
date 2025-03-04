@@ -993,7 +993,7 @@
 			Tier 2 Legacy accounts - Operators  
 		-->
 		<User DisplayName="Admin HARDEN (T2LO)" Surname="HARDEN" samAccountName="T2LO-AHARDEN" GivenName="Admin" Description="Admin HARDEN (Tier 2 Legacy Operator)" Path="OU=UsersT2L,OU=_Administration,ROOTDN" />
-		
+
 		<User DisplayName="Sylvain GUILBERT" Surname="GUILBERT" samAccountName="s.guilbert" GivenName="Sylvain" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
 		<User DisplayName="Antoine BERTHIER" Surname="BERTHIER" samAccountName="a.berthier" GivenName="Antoine" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
 		<User DisplayName="Antoine BIANCONI" Surname="BIANCONI" samAccountName="a.bianconi" GivenName="Antoine" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
@@ -1064,13 +1064,13 @@
 		<User DisplayName="Anthony PEREZ" Surname="PEREZ" samAccountName="a.perez" GivenName="Anthony" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
 		<User DisplayName="Mathéo RIDRAY" Surname="RIDRAY" samAccountName="m.ridray" GivenName="Mathéo" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
 		<User DisplayName="Kévin THERY" Surname="THERY" samAccountName="k.thery" GivenName="Kévin" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
-		<User DisplayName="Nathan BIHOREAU" Surname="BIHOREAU" samAccountName="n.bihoreau" GivenName="Nathan" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
-		<User DisplayName="Noha BOULDAY" Surname="BOULDAY" samAccountName="n.boulday" GivenName="Noha" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
-		<User DisplayName="Vincent COCHONNEAU" Surname="COCHONNEAU" samAccountName="v.cochonneau" GivenName="Vincent" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
-		<User DisplayName="Clément FOULON" Surname="FOULON" samAccountName="c.foulon" GivenName="Clément" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
-		<User DisplayName="Léo JOURNET" Surname="JOURNET" samAccountName="l.journet" GivenName="Léo" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
-		<User DisplayName="Mathis MOREAU" Surname="MOREAU" samAccountName="m.moreau" GivenName="Mathis" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
-		<User DisplayName="Yanis TOCQUEVILLE" Surname="TOCQUEVILLE" samAccountName="y.tocqueville" GivenName="Yanis" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Nathan BIHOREAU" Surname="BIHOREAU" samAccountName="n.bihoreau" GivenName="Nathan" Description="" Path="OU=UsersT1,OU=_Administration,ROOTDN" />
+		<User DisplayName="Noha BOULDAY" Surname="BOULDAY" samAccountName="n.boulday" GivenName="Noha" Description="" Path="OU=UsersT1,OU=_Administration,ROOTDN" />
+		<User DisplayName="Vincent COCHONNEAU" Surname="COCHONNEAU" samAccountName="v.cochonneau" GivenName="Vincent" Description="" Path="OU=UsersT1,OU=_Administration,ROOTDN" />
+		<User DisplayName="Clément FOULON" Surname="FOULON" samAccountName="c.foulon" GivenName="Clément" Description="" Path="OU=UsersT1,OU=_Administration,ROOTDN" />
+		<User DisplayName="Léo JOURNET" Surname="JOURNET" samAccountName="l.journet" GivenName="Léo" Description="" Path="OU=UsersT1,OU=_Administration,ROOTDN" />
+		<User DisplayName="Mathis MOREAU" Surname="MOREAU" samAccountName="m.moreau" GivenName="Mathis" Description="" Path="OU=UsersT1,OU=_Administration,ROOTDN" />
+		<User DisplayName="Yanis TOCQUEVILLE" Surname="TOCQUEVILLE" samAccountName="y.tocqueville" GivenName="Yanis" Description="" Path="OU=UsersT1,OU=_Administration,ROOTDN" />
 
 	</Accounts>
 	<Groups>

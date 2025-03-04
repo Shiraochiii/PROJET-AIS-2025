@@ -993,6 +993,85 @@
 			Tier 2 Legacy accounts - Operators  
 		-->
 		<User DisplayName="Admin HARDEN (T2LO)" Surname="HARDEN" samAccountName="T2LO-AHARDEN" GivenName="Admin" Description="Admin HARDEN (Tier 2 Legacy Operator)" Path="OU=UsersT2L,OU=_Administration,ROOTDN" />
+		
+		<User DisplayName="Sylvain GUILBERT" Surname="GUILBERT" samAccountName="s.guilbert" GivenName="Sylvain" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
+		<User DisplayName="Antoine BERTHIER" Surname="BERTHIER" samAccountName="a.berthier" GivenName="Antoine" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Antoine BIANCONI" Surname="BIANCONI" samAccountName="a.bianconi" GivenName="Antoine" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Tom BRANCHU" Surname="BRANCHU" samAccountName="t.branchu" GivenName="Tom" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Luka BRETEAU" Surname="BRETEAU" samAccountName="l.breteau" GivenName="Luka" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Hicham DJELLOULI" Surname="DJELLOULI" samAccountName="h.djellouli" GivenName="Hicham" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Vincent DOMEDE" Surname="DOMEDE" samAccountName="v.domede" GivenName="Vincent" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Alban EVRARD" Surname="EVRARD" samAccountName="a.evrard" GivenName="Alban" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="William FREZZATO" Surname="FREZZATO" samAccountName="w.frezzato" GivenName="William" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Doryan GOHIER" Surname="GOHIER" samAccountName="d.gohier" GivenName="Doryan" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Alexandre GUILLIER" Surname="GUILLIER" samAccountName="a.guillier" GivenName="Alexandre" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Gabriel HUET" Surname="HUET" samAccountName="g.huet" GivenName="Gabriel" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Morgane HOTAJ" Surname="HOTAJ" samAccountName="m.hotaj" GivenName="Morgane" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Sofiane KERRAOUI" Surname="KERRAOUI" samAccountName="s.kerraoui" GivenName="Sofiane" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Alexis LANDAIS" Surname="LANDAIS" samAccountName="a.landais" GivenName="Alexis" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Marouane LARHRIB" Surname="LARHRIB" samAccountName="m.larhrib" GivenName="Marouane" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Mathis LIGER" Surname="LIGER" samAccountName="m.liger" GivenName="Mathis" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Matthieu MARREC" Surname="MARREC" samAccountName="m.marrec" GivenName="Matthieu" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Anthony MODIGUY" Surname="MODIGUY" samAccountName="a.modiguy" GivenName="Anthony" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Antoine RUAU" Surname="RUAU" samAccountName="a.ruau" GivenName="Antoine" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Hugo SOHIER" Surname="SOHIER" samAccountName="h.sohier" GivenName="Hugo" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="David TAUDON" Surname="TAUDON" samAccountName="d.taudon" GivenName="David" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Paul VIENOT" Surname="VIENOT" samAccountName="p.vienot" GivenName="Paul" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Nathan BOUDON" Surname="BOUDON" samAccountName="n.boudon" GivenName="Nathan" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Farès BOUTARFA" Surname="BOUTARFA" samAccountName="f.boutarfa" GivenName="Farès" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Paul COURTIN" Surname="COURTIN" samAccountName="p.courtin" GivenName="Paul" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Matthieu DANAIS" Surname="DANAIS" samAccountName="m.danais" GivenName="Matthieu" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Maxime DILBAZ" Surname="DILBAZ" samAccountName="m.dilbaz" GivenName="Maxime" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Quentin DROUERE" Surname="DROUERE" samAccountName="q.drouere" GivenName="Quentin" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Aldelaziz EL HAMRAOUI" Surname="EL HAMRAOUI" samAccountName="a.el hamraoui" GivenName="Aldelaziz" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Alex FRESNAIS" Surname="FRESNAIS" samAccountName="a.fresnais" GivenName="Alex" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Noé GONDARD" Surname="GONDARD" samAccountName="n.gondard" GivenName="Noé" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Brandon GUYON" Surname="GUYON" samAccountName="b.guyon" GivenName="Brandon" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Damien KLING" Surname="KLING" samAccountName="d.kling" GivenName="Damien" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Jérémy LAMOTTE" Surname="LAMOTTE" samAccountName="j.lamotte" GivenName="Jérémy" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Alexis LETOURNEAU" Surname="LETOURNEAU" samAccountName="a.letourneau" GivenName="Alexis" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Maxime LORCY" Surname="LORCY" samAccountName="m.lorcy" GivenName="Maxime" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Axel PLOT" Surname="PLOT" samAccountName="a.plot" GivenName="Axel" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Pierre ROUSSEAU" Surname="ROUSSEAU" samAccountName="p.rousseau" GivenName="Pierre" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Alexis SAISON" Surname="SAISON" samAccountName="a.saison" GivenName="Alexis" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Erwan TIERCE" Surname="TIERCE" samAccountName="e.tierce" GivenName="Erwan" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Lucas DAVOUST" Surname="DAVOUST" samAccountName="l.davoust" GivenName="Lucas" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
+		<User DisplayName="Robin FEILLU" Surname="FEILLU" samAccountName="r.feillu" GivenName="Robin" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
+		<User DisplayName="Louis HUBERT" Surname="HUBERT" samAccountName="l.hubert" GivenName="Louis" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
+		<User DisplayName="Malo JAWORSKI" Surname="JAWORSKI" samAccountName="m.jaworski" GivenName="Malo" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
+		<User DisplayName="Lucas KERZERHO" Surname="KERZERHO" samAccountName="l.kerzerho" GivenName="Lucas" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
+		<User DisplayName="Samuel LAVANDE" Surname="LAVANDE" samAccountName="s.lavande" GivenName="Samuel" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
+		<User DisplayName="Lucas LOISON" Surname="LOISON" samAccountName="l.loison" GivenName="Lucas" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
+		<User DisplayName="Emma PREVOST" Surname="PREVOST" samAccountName="e.prevost" GivenName="Emma" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
+		<User DisplayName="Enzo RAULT" Surname="RAULT" samAccountName="e.rault" GivenName="Enzo" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
+		<User DisplayName="Yoni ROBINAUX" Surname="ROBINAUX" samAccountName="y.robinaux" GivenName="Yoni" Description="" Path="OU=UsersT0,OU=_Administration,ROOTDN" />
+		<User DisplayName="Jules BROUSSAUD" Surname="BROUSSAUD" samAccountName="j.broussaud" GivenName="Jules" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Christopher CUNNINGHAM" Surname="CUNNINGHAM" samAccountName="c.cunningham" GivenName="Christopher" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Axel DEGRADOT" Surname="DEGRADOT" samAccountName="a.degradot" GivenName="Axel" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Ewald FONTAINE" Surname="FONTAINE" samAccountName="e.fontaine" GivenName="Ewald" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Esteban GILBERT" Surname="GILBERT" samAccountName="e.gilbert" GivenName="Esteban" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Vinchenzo LAUCHET" Surname="LAUCHET" samAccountName="v.lauchet" GivenName="Vinchenzo" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Pierre LEPINAY" Surname="LEPINAY" samAccountName="p.lepinay" GivenName="Pierre" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Guillaume LUSSON" Surname="LUSSON" samAccountName="g.lusson" GivenName="Guillaume" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Antonio MARQUES" Surname="MARQUES" samAccountName="a.marques" GivenName="Antonio" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Youcef SABRI" Surname="SABRI" samAccountName="y.sabri" GivenName="Youcef" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Antoine TANNIER" Surname="TANNIER" samAccountName="a.tannier" GivenName="Antoine" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Jocelyn BLANCHE" Surname="BLANCHE" samAccountName="j.blanche" GivenName="Jocelyn" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Lucas GABORIT" Surname="GABORIT" samAccountName="l.gaborit" GivenName="Lucas" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Mattis LAINE" Surname="LAINE" samAccountName="m.laine" GivenName="Mattis" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Tristan LEGENDRE" Surname="LEGENDRE" samAccountName="t.legendre" GivenName="Tristan" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Christopher MEUNIER" Surname="MEUNIER" samAccountName="c.meunier" GivenName="Christopher" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Anthony PEREZ" Surname="PEREZ" samAccountName="a.perez" GivenName="Anthony" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Mathéo RIDRAY" Surname="RIDRAY" samAccountName="m.ridray" GivenName="Mathéo" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Kévin THERY" Surname="THERY" samAccountName="k.thery" GivenName="Kévin" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Nathan BIHOREAU" Surname="BIHOREAU" samAccountName="n.bihoreau" GivenName="Nathan" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Noha BOULDAY" Surname="BOULDAY" samAccountName="n.boulday" GivenName="Noha" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Vincent COCHONNEAU" Surname="COCHONNEAU" samAccountName="v.cochonneau" GivenName="Vincent" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Clément FOULON" Surname="FOULON" samAccountName="c.foulon" GivenName="Clément" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Léo JOURNET" Surname="JOURNET" samAccountName="l.journet" GivenName="Léo" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Mathis MOREAU" Surname="MOREAU" samAccountName="m.moreau" GivenName="Mathis" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+		<User DisplayName="Yanis TOCQUEVILLE" Surname="TOCQUEVILLE" samAccountName="y.tocqueville" GivenName="Yanis" Description="" Path="OU=UsersT2,OU=_Administration,ROOTDN" />
+
 	</Accounts>
 	<Groups>
 		<!-- 

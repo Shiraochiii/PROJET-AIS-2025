@@ -1,5 +1,4 @@
 <#
-    test
     .SYNOPSIS
     This script and all its dependencies will assist you in hardening an Active Directory domain.
 

@@ -3,9 +3,6 @@
 	<!--
   		Revision: 2024/04/13 - contact@hardenad.net
 	-->
-	<!--
-  		Test Enzo
-	-->
 	<Version>
 		<Edition Name="Community Edition" />
 		<Release Major="02" Minor="09" BugFix="008" />
